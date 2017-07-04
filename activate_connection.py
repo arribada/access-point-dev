@@ -6,7 +6,7 @@ import NetworkManager
 import sys
 
 # Find the connection
-name = "resin-hotspot"
+name = sys.argv[1]
 connections = NetworkManager.Settings.ListConnections()
 connections = dict([(x.GetSettings()['connection']['id'], x) for x in connections])
 conn = connections[name]
