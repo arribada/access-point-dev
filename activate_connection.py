@@ -1,7 +1,7 @@
 """
 Activate a connection by name
 """
-
+import dbus
 import NetworkManager
 import sys
 
