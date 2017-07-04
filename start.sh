@@ -1,4 +1,4 @@
-modprobe v4l2_common && python cam-single-photo.py &
+#modprobe v4l2_common && python cam-single-photo.py &
 
 cd /data
 
